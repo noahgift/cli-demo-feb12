@@ -3,3 +3,5 @@ click
 pytest
 pytest-cov
 flask
+locust
+jupyter
