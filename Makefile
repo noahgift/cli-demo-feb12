@@ -4,7 +4,7 @@ install:
 
 test:
 	#python -m pytest test_gcli.py
-	python -m pytest -vv --cov=cli test_gcli.py
+	python -m pytest -vv --cov=cli --cov=search test_gcli.py
 	#python -m pytest --nbval notebook.ipynb
 
 lint:

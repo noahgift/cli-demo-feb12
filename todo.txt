@@ -1,0 +1,6 @@
+- Setup a click tool
+- setup flask
+- setup loadtest
+- setup jupyter
+- setup docker
+
