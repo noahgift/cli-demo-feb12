@@ -5,4 +5,4 @@ def test_search():
   runner = CliRunner()
   result = runner.invoke(hello, [])
   assert result.exit_code == 0
-  assert 'Hello' in result.output
+  assert 'hello' in result.output
